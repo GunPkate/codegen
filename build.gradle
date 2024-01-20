@@ -32,7 +32,7 @@ openApiGenerate {
 	modelPackage.set("com.example.codgen.model")
 	apiPackage.set("com.example.codgen.api")
 	invokerPackage.set("com.example.codgen.invoker")
-	cleanupoutput.set(true)
+	cleanupOutput.set(true)
 
 	configOptions.set([
 			dateLibrary: "java8",
