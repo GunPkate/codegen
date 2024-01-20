@@ -44,7 +44,8 @@ openApiGenerate {
 sourceSets {
 	main{
 		java {
-			srcDir("build/genearated/src/main/java")
+//			srcDir("build/genearated/src/main/java")
+			srcDir("tasks.openApiGenerate")
 		}
 	}
 }
